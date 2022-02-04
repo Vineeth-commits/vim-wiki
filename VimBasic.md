@@ -32,7 +32,7 @@
 * To jump to the nth line, type *:[n]*
 * To jump to the start of the file, type *:0*
 * To jump to the end of the file, type *:$*
-### Word Navigation
+## Word Navigation
 * To move the cursor to the beginning of the next word, type *w*
 * To move the cursor to the end of the current word, type *e*
 * To move the cursor to the beginning of the previous word, type *b*
