@@ -4,7 +4,7 @@
 4. https://www.computerhope.com/unix/rsync.htm
 5. https://www.youtube.com/watch?v=oxLMBWTzxe4
 6. https://itsfoss.com/switch-kernels-arch-linux/
-7. https://man.archlinux.org/man/xdg-open.1
+[[7]]. https://man.archlinux.org/man/xdg-open.1
 8. https://wiki.archlinux.org/title/Broadcom_wireless#Installation
 9. https://www.youtube.com/watch?v=zE0hno3vV9M
 10. https://vimawesome.com/

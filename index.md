@@ -9,4 +9,4 @@
    3) [[Arrays.md|Arrays]]
 * Important bookmarks
    1) [[bookmarks/nft-ticketing-system/webLinks.txt|NFT Ticketing System]]
-   2) [[bookmarks/xmonad/webLinks.txt|]]
+   2) [[bookmarks/xmonad/webLinks.txt|xmonad]]

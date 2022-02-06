@@ -47,6 +47,79 @@
 * The key combination *zm* increases the fold level by one
 * The key combination *zM* closes all open folds
 * The key combination *zR* all folds will open
+## Vim Searching
+* To perform incremental search execute following command -
+```bash
+:set incsearch
+```
+* To highlight search execute following command
+```bash
+:set hlsearch
+```
+* To disable the above -
+```bash
+:set noincsearch
+:set nohlsearch
+```
+* To search in forward direction
+```bash
+/<expression> # Search expression in forward direction
+n # Find the next occurrence
+N # Find the previous occurrence
+// # Repeat previous forward search
+```
+* To search in backward direction
+```bash
+?<expression> #Search expression in backward direction
+n # Find previous occurance
+N # Find next occurrence
+?? Repeat previous backward search
+```
+* Search word under cursor
+```bash
+* # Search next occurrence of current word
+# #Search previous occurrence of current word
+```
+* Search in multiple files
+```bash
+:vimgrep [search term] *.txt
+:cn # Go to next occurrence of expression
+:cN # Go to previous occurrence of expression
+```
+## Working with multiple things
+* Multiple files
+```bash
+:e # Load new file in buffer for editing
+:edit # Same as :e
+:edit<tab> # List the files for editing from current directory
+:edit<tab> # Same as :e<tab>
+```
+* Multiple Buffers
+```bash
+:badd<file> # Add file into new buffer
+:bN # Switch to Nth buffer. For instance to switch to 3rd buffer use :b3
+:bnext # Move to the next buffer in buffer list
+:bprevious # Move to the previous buffer in buffer list
+:buffers # List all buffers
+:bfirst # Move to the first buffer
+:blast # Move to the last buffer
+:ball # Load all buffers
+```
+* Multiple tabs
+```bash
+:tabnew # Open new tab
+:tabnew<file> # Open new file in tab
+:tabclose # Close current tab
+:tabnext # Move to the next tab
+:tabprevious # Move to the previous tab
+:tabfirst # Move to the first tab
+:tablast # Move to the last tab
+```
+* Multiple windows
+```bash
+:new<file> # Open file in new window
+```
+
 ## Miscellaneous
 * Use the -R option to view the file in read only mode
 ```bash
@@ -55,4 +128,14 @@
 * To get the actual name of the swap file execute the following command
 ```bash
    :swapname
+```
+* We can undo single or multiple actions -
+```bash
+u # undo single action
+[n]u # undo multiple actions
+U # to undo all
+```
+* Redo is the opposite action of undo.
+```bash
+ctr l + r
 ```
